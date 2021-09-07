@@ -1,0 +1,23 @@
+{
+  "name": "error-control-pages",
+  "version": "1.2.0",
+  "description": "",
+  "main": "index.php",
+  "scripts": {
+    "sass": "npx sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javiluli/error-control-pages.git"
+  },
+  "author": "javiluli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/javiluli/error-control-pages/issues"
+  },
+  "homepage": "https://github.com/javiluli/error-control-pages#readme",
+  "devDependencies": {
+    "prettier": "^2.3.1",
+    "sass": "^1.39.0"
+  }
+}

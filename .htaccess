@@ -1,0 +1,3 @@
+Options All -Indexes
+ErrorDocument 403 https://php-error-page-control.herokuapp.com/error/403.php
+ErrorDocument 404 https://php-error-page-control.herokuapp.com/error/404.php

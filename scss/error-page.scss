@@ -1,0 +1,36 @@
+.title-animated {
+  animation: animacion 5s ease-in infinite;
+}
+
+.link-animated {
+  text-decoration: none;
+  position: relative;
+
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: 0.2s all ease;
+  }
+
+  &:hover::before {
+    transform: scaleX(100%);
+  }
+}
+
+@keyframes animacion {
+  0%,
+  100% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+}

@@ -1,0 +1,9 @@
+### NodeJs ###\
+node_modules/
+package-lock.json
+
+### Sass ###
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
